@@ -1,0 +1,121 @@
+.block__inform {
+    padding-bottom: 45px;
+    &-slide{
+        &__inner{
+            padding: 30px 20px 0 20px;
+            margin: 0 auto;
+            position: relative;
+            max-width: 230px;
+            height: 260px;
+            width: 100%;
+        }
+        &__img{
+            position: relative;
+            background: #fff;
+        }
+    }
+    &-text{
+        color: #FFFFFF;
+        font-family: 'Bitter', serif;
+        line-height: 20px;
+        font-weight: 400;
+        background: #80A981;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+}
+.slider-mark{
+    position: absolute;
+    top: 12px;
+    z-index: 5;
+    right: 12px;
+    width: 63px;
+    height: 63px;
+    display: flex;
+    text-align: center;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.slider__inform{
+    &-text{
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 13px;
+        background: #FFF;
+        &__first{
+            color: #EF8265;
+        }
+        &__second{
+            color: #62929C;
+        }
+        &__third{
+            color: #7480B0;
+        }
+    }
+}
+.inform__circle{
+    position: relative;
+    width: 192px;
+    height: 192px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .2);
+}
+.slider__title{
+    font-family: 'Bitter', serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 141%;
+}
+.slider__subtitle{
+    font-family: 'Bitter', serif;
+    font-size: 25px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 37px;
+    text-transform: uppercase;
+}
+.slider-link{
+    margin-top: 11px;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #CACACA;
+    line-height: 18px;
+    text-decoration: none;
+    font-family: 'Bitter', serif;
+}
+// 
+.first{
+    background: #569566;
+}
+.second{
+    background: #EF8265;
+}
+.third{
+    background: #62929C;
+}
+.fourth{
+    background: #7480B0;
+}
+// pagination
+.swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    bottom: 35px;
+}
+.swiper-pagination-bullet{
+    opacity: 1;
+    width: 10px;
+    height: 10px;
+    background: transparent;
+    border: 1px solid #fff;
+    &-active{
+        background: #fff;
+    }
+}
